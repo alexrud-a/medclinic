@@ -143,13 +143,13 @@ function medclinic_scripts() {
 	wp_enqueue_style( 'medclinic-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'medclinic-style', 'rtl', 'replace' );
 
-    wp_enqueue_style( 'medclinic-style-app', get_template_directory() . '/dist/css/app.css', array(), _S_VERSION );
+    wp_enqueue_style( 'medclinic-style-app', get_template_directory() . '/dist/css/app.css');
 
-    wp_enqueue_script( 'medclinic-script', get_template_directory() . '/dist/js/manifest.js', array(), _S_VERSION  );
+    wp_enqueue_script( 'medclinic-script', get_template_directory() . '/dist/js/manifest.js');
 
-    wp_enqueue_script( 'medclinic-script-libs', get_template_directory() . '/dist/js/libs.js', array(), _S_VERSION  );
+    wp_enqueue_script( 'medclinic-script-libs', get_template_directory() . '/dist/js/libs.js');
 
-    wp_enqueue_script( 'medclinic-script-app', get_template_directory() . '/dist/js/app.js', array(), _S_VERSION  );
+    wp_enqueue_script( 'medclinic-script-app', get_template_directory() . '/dist/js/app.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
