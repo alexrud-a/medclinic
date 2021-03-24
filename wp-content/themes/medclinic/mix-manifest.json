@@ -1,6 +1,5 @@
 {
     "/dist/js/app.js": "/dist/js/app.js",
-    "/dist/js/manifest.js": "/dist/js/manifest.js",
     "/dist/css/app.css": "/dist/css/app.css",
-    "/dist/js/libs.js": "/dist/js/libs.js"
+    "/dist/js/vue.js": "/dist/js/vue.js"
 }
