@@ -62,6 +62,7 @@
         {{ str }}
 	</header><!-- #masthead -->
     <script>
+        //пример как в шаблоне работаем с vue
         let app = new Vue({
             el: '#header',
             data() {
