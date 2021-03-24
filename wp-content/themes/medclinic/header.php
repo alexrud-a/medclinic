@@ -15,10 +15,10 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/wp-content/themes/medclinic/dist/css/app.css">
+	<link rel="stylesheet" href="/wp-content/themes/medclinic/dist/css/app.min.css">
 
     <script src="/wp-content/themes/medclinic/dist/js/vue.js"></script>
-    <script src="/wp-content/themes/medclinic/dist/js/app.js"></script>
+    <script src="/wp-content/themes/medclinic/dist/js/app.min.js"></script>
 
 	<?php wp_head(); ?>
 </head>
