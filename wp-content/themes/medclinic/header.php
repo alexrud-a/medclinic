@@ -15,7 +15,11 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="/wp-content/themes/medclinic/dist/css/app.css">
+
+    <script src="/wp-content/themes/medclinic/dist/js/manifest.js"></script>
+    <script src="/wp-content/themes/medclinic/dist/js/libs.js"></script>
+    <script src="/wp-content/themes/medclinic/dist/js/app.js"></script>
 
 	<?php wp_head(); ?>
 </head>
