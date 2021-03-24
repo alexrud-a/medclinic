@@ -25,7 +25,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'medclinic' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="header" class="site-header">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -56,4 +56,16 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+        {{ str }}
 	</header><!-- #masthead -->
+
+    <script>
+        let app = new Vue({
+            el: '#header',
+            data() {
+                return {
+                    str: 'Hello'
+                }
+            }
+        })
+    </script>
