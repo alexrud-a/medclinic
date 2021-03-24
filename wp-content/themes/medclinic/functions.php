@@ -147,7 +147,7 @@ function medclinic_scripts() {
 
     wp_enqueue_script( 'medclinic-script', get_template_directory() . '/dist/js/manifest.js', array(), _S_VERSION  );
 
-    wp_enqueue_script( 'medclinic-script', get_template_directory() . '/dist/js/app.js', array(), _S_VERSION  );
+    wp_enqueue_script( 'medclinic-script-app', get_template_directory() . '/dist/js/app.js', array(), _S_VERSION  );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
