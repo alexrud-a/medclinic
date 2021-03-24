@@ -58,14 +58,3 @@
 		</nav><!-- #site-navigation -->
         {{ str }}
 	</header><!-- #masthead -->
-
-    <script>
-        let app = new Vue({
-            el: '#header',
-            data() {
-                return {
-                    str: 'Hello'
-                }
-            }
-        })
-    </script>
